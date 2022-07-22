@@ -6,6 +6,8 @@
     font-family: "Roboto", Arial, sans-serif;
 }
 
+/* LOGO */
+
 .page-header__logo:active path {
     fill: #A6A6A6;
 }
