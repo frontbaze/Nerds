@@ -253,3 +253,46 @@ img {
     border: 2px solid var(--light-gray);
     border-radius: 50%;
 }
+
+.page-main {
+    margin-top: 80px;
+}
+
+.features {
+
+}
+
+.features__list {
+    display: flex;
+    justify-content: start;
+
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.features__item {
+    width: 300px;
+    margin-right: 100px;
+}
+
+.feature__title {
+    text-transform: uppercase;
+}
+
+.feature__text {
+    margin-bottom: 32px;
+}
+
+.feature__button {
+    width: 160px;
+    height: 50px;
+}
+
+.feature__button--2 {
+    background-color: var(--green);
+}
+
+.feature__button--3 {
+    background-color:  var(--yellow);
+}
