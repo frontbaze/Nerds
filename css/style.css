@@ -268,10 +268,14 @@ img {
 
 /* FEATURES */
 
+.features {
+    margin-bottom: 121px;
+}
+
 .features::after {
     content: "";
     position: absolute;
-    bottom: -40px;
+    top: 425px;
     left: 0;
     width: 1158px;
     height: 2px;
@@ -331,4 +335,62 @@ img {
 .feature__button--3:active {
     background-color: #E5A722;
     box-shadow: inset 0px 3px 0px rgba(0, 1, 1, 0.1);
+}
+
+/* INFO */
+
+.info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info__info-section {
+    width: 650px;
+}
+
+.info-section__title {
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 45px;
+    color: var(--basic-black);
+}
+
+.info-section__text {
+    color: var(--dark-black);
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 40px;
+}
+
+.info-section__list-title {
+    font-weight: 700;
+    color: var(--dark-black);
+    margin-bottom: 23px;
+}
+
+.info-section__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.info-section__item {
+    position: relative;
+    color: var(--dark-black);
+    margin-left: 35px;
+    margin-bottom: 30px;
+}
+
+.info-section__item::before {
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 2px;
+    left: -35px;
+    top: 10px;
+    background-color: var(--tomato);
+}
+
+.info__stats {
+    width: 360px;
 }
