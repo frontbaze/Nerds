@@ -57,6 +57,7 @@ img {
     display: grid;
     grid-template-rows: min-content 1fr min-content;
     align-content: start;
+    background-color: var(--basic-white);
 }
 
 /* CONTAINER */
@@ -340,8 +341,20 @@ img {
 /* INFO */
 
 .info {
+    position: relative;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 120px;
+}
+
+.info::after {
+    content: "";
+    position: absolute;
+    top: 532px;
+    left: 0;
+    width: 1158px;
+    height: 2px;
+    background-color: var(--gray-lighter);
 }
 
 .info__info-section {
@@ -438,4 +451,67 @@ img {
     font-size: 16px;
     line-height: 18px;
     color: var(--dark-black);
+}
+
+/* LOGOS */
+
+.logo {
+    position: relative;
+    margin-bottom: 126px;
+}
+
+.logo::after {
+    content: "";
+    position: absolute;
+    top: 130px;
+    left: 0;
+    width: 1158px;
+    height: 2px;
+    background-color: var(--gray-lighter);
+}
+
+.logo__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo__item {
+    position: relative;
+    padding: 0 20px;
+}
+
+.logo__item a {
+    opacity: 0.2;
+}
+
+.logo__item::after {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 2px;
+    width: 3px;
+    height: 52px;
+    background-color: var(--gray-lighter);
+}
+
+.logo__item:last-child::after {
+    display: none;
+}
+
+.logo__item a:hover {
+    opacity: 1;
+}
+
+.logo__item a:active {
+    opacity: 0.1;
+}
+
+/* MAP */
+
+.map {
+    margin-bottom: 68px;
 }
