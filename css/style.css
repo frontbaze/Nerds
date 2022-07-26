@@ -645,22 +645,6 @@ img {
     box-sizing: border-box;
 }
 
-.modal::after {
-    content: "";
-    position: absolute;
-    top: 83px;
-    right: 93px;
-    width: 21px;
-    height: 21px;
-    background-image: url("../img/close-cross.svg");
-    cursor: pointer;
-    opacity: 0.3;
-}
-
-.modal:hover::after {
-    
-}
-
 .modal__title {
     margin: 0;
     font-weight: 700;
@@ -724,4 +708,25 @@ img {
 
 .modal__button {
     width: 259px;
+}
+
+.modal__close {
+    border: none;
+    outline: none;
+}
+
+.modal__close::after {
+    content: "";
+    position: absolute;
+    top: 83px;
+    right: 93px;
+    width: 21px;
+    height: 21px;
+    background-image: url("../img/close-cross.svg");
+    cursor: pointer;
+    opacity: 0.3;
+}
+
+.modal__close:hover::after {
+    opacity: 1;
 }
