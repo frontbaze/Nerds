@@ -631,6 +631,7 @@ img {
 }
 
 .modal {
+    display: none;
     width: 960px;
     height: 590px;
     position: fixed;
@@ -729,4 +730,16 @@ img {
 
 .modal__close:hover::after {
     opacity: 1;
+}
+
+/* CATALOG */
+
+.page-header__title {
+    margin: 0;
+    font-weight: 500;
+    font-size: 55px;
+    line-height: 55px;
+    text-align: center;
+    margin-top: 72px;
+    margin-bottom: 108px;
 }
