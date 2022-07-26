@@ -480,8 +480,11 @@ img {
 }
 
 .logo__item {
+    display: flex;
+    align-items: center;
     position: relative;
     padding: 0 20px;
+    height: 90px;
 }
 
 .logo__item a {
@@ -491,8 +494,8 @@ img {
 .logo__item::after {
     content: "";
     position: absolute;
-    top: 1px;
-    right: -35px;
+    top: 16px;
+    right: -42px;
     width: 3px;
     height: 52px;
     background-color: var(--gray-lighter);
