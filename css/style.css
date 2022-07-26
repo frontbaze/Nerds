@@ -587,6 +587,9 @@ img {
 }
 
 .footer__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 81px;
     height: 81px;
     background: linear-gradient(0deg, #E1E1E1, #E1E1E1), #FFFFFF;
@@ -604,11 +607,11 @@ img {
 }
 
 .footer-sale h3 {
-    padding: 0;
-    margin: 0;
+    
 }
 
 .footer-sale__title {
+    margin: 0;
     font-weight: 700;
     font-size: 36px;
     line-height: 36px;
@@ -619,4 +622,106 @@ img {
     color: var(--gray-darker);
     line-height: 22px;
     margin: 0;
+}
+
+/* MODAL */
+
+.page-modal {
+
+}
+
+.modal {
+    width: 960px;
+    height: 590px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.4);
+    padding: 63px 100px;
+    box-sizing: border-box;
+}
+
+.modal::after {
+    content: "";
+    position: absolute;
+    top: 83px;
+    right: 93px;
+    width: 21px;
+    height: 21px;
+    background-image: url("../img/close-cross.svg");
+    cursor: pointer;
+    opacity: 0.3;
+}
+
+.modal:hover::after {
+    
+}
+
+.modal__title {
+    margin: 0;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 52px;
+    margin-bottom: 37px;
+}
+
+.modal__form {
+    width: 761px;
+}
+
+.modal__wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 34px;
+}
+
+.modal__item {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.modal__item label {
+    line-height: 18px;
+    font-weight: 700;
+    margin-bottom: 9px;
+}
+
+.modal__item input {
+    width: 360px;
+    height: 50px;
+    border: 2px solid #D7DCDE;
+    border-radius: 3px;
+    padding: 16px;
+    box-sizing: border-box;
+    color: var(--gray-darker);
+    opacity: 0.3;
+}
+
+.modal__item:hover input,
+.modal__item:hover textarea {
+    opacity: 1;
+}
+
+.modal__item:focus input,
+.modal__item:focus textarea {
+    color: var(--basic-black);
+}
+
+.modal__item textarea {
+    border: 2px solid #D7DCDE;
+    border-radius: 3px;
+    padding: 16px;
+    box-sizing: border-box;
+    color: var(--gray-darker);
+    margin-bottom: 47px;
+    opacity: 0.3;
+}
+
+.modal__button {
+    width: 259px;
 }

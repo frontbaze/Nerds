@@ -213,5 +213,27 @@
             <p class="footer-sale__text">Скидка 10% для друзей из социальных сетей.</p>
         </div>
     </footer>
+
+    <section class="page-modal modal">
+        <h2 class="modal__title">Напишите нам</h2>
+        <form class="modal__form" action="#">
+            <div class="modal__wrapper">
+                <p class="modal__item">
+                    <label for="your-name">Ваше имя:</label>
+                    <input id="your-name" type="text" placeholder="Имя Фамилия">
+                </p>
+                <p class="modal__item">
+                    <label for="your-mail">Ваш email:</label>
+                    <input id="your-mail" type="email" placeholder="email@example.com">
+                </p>
+            </div>
+
+            <p class="modal__item">
+                <label for="mail-text">Текст письма:</label>
+                <textarea rows="5" id="ymail-text" type="text" placeholder="В свободной форме"></textarea>
+            </p>
+        </form>
+        <button class="button modal__button" type="button">Отправить</button>
+    </section>
 </body>
 </html>
