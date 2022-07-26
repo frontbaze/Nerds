@@ -491,8 +491,8 @@ img {
 .logo__item::after {
     content: "";
     position: absolute;
-    top: 0px;
-    right: 2px;
+    top: 1px;
+    right: -35px;
     width: 3px;
     height: 52px;
     background-color: var(--gray-lighter);
@@ -513,7 +513,50 @@ img {
 /* MAP */
 
 .map {
+    position: relative;
     margin-bottom: 68px;
+}
+
+.map__contacts {
+
+}
+
+.contacts {
+    position: absolute;
+    padding: 50px;
+    top: 54px;
+    left: 20px;
+    width: 319px;
+    height: 308px;
+    background-color: var(--basic-white);
+    box-sizing: border-box;
+}
+
+.contacts__title {
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 23px;
+}
+
+.contacts__adress {
+    margin: 0;
+    line-height: 18px;
+    color: var(--gray);
+    margin-bottom: 20px;
+}
+
+.contacts__tel {
+    margin: 0;
+    line-height: 18px;
+    color: var(--gray);
+    margin-bottom: 37px;
+}
+
+.contacts__button {
+    width: 219px;
 }
 
 /* PAGE-FOOTER */
