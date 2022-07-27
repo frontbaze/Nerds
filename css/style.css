@@ -1048,3 +1048,10 @@ img {
     cursor: pointer;
     opacity: 0.2;
 }
+
+/* EXAMPLES */
+
+.main__examples {
+    display: flex;
+    margin-top: 48px;
+}
