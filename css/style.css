@@ -968,3 +968,56 @@ img {
     font-weight: 500;
     line-height: 18px;
 }
+
+/* SORT */
+
+.main__content {
+    margin-top: 55px;
+}
+.content {
+    
+}
+.content__sort {
+
+}
+.sort {
+    display: grid;
+    grid-template-columns: 360px 1fr;
+    grid-gap: 41px;
+}
+.sort__title {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.sort__to {
+    width: 272px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sort__to-price {
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+.sort__to-type {
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+.sort__to-name {
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+.sort__toggles {
+
+}
+.sort__toggles-down {
+    
+}
+.sort__toggles-up {
+    
+}
