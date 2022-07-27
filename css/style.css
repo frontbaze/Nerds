@@ -744,6 +744,14 @@ img {
     margin-bottom: 108px;
 }
 
+/* MAIN */
+
+.main {
+    display: grid;
+    grid-template-columns: min-content 1fr;
+    grid-gap: 140px;
+}
+
 /* FILTER */
 
 .filter__item {
@@ -797,6 +805,7 @@ img {
     background-color: #ababab;
     border-radius: 50%;
     box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
 }
 
 .toggle-min {
@@ -805,4 +814,23 @@ img {
 
 .toggle-max {
     left: 160px;
+}
+
+.filter__price-controls {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+
+.filter__price-controls input {
+    width: 60px;
+    padding: 10px;
+    margin-left: 10px;
+    text-align: center;
+    color: var(--dark-black);
+    border: none;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    font-family: inherit;
+    font-size: inherit;
 }
