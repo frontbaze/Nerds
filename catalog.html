@@ -61,8 +61,58 @@
                             </div>
                         </div>
                     </fieldset>
+
+                    <div class="filter__grid-choose grid-choose">
+                        <fieldset class="grid-choose__field">
+                            <legend class="grid-choose__title">Сетка:</legend>
+                            <ul class="grid-choose__list">
+                                <li class="grid-choose__item">
+                                    <input class="grid-choose__input-radio visually-hidden" type="radio" name="grid" id="adaptive" checked>
+                                    <label class="grid-choose__label" for="adaptive">Адаптивная</label>
+                                </li>
+                                <li class="grid-choose__item">
+                                    <input class="grid-choose__input-radio visually-hidden" type="radio" name="grid" id="static">
+                                    <label class="grid-choose__label" for="static">Фиксированная</label>
+                                </li>
+                                <li class="grid-choose__item">
+                                    <input class="grid-choose__input-radio visually-hidden" type="radio" name="grid" id="flexible">
+                                    <label class="grid-choose__label" for="flexible">Резиновая</label>
+                                </li>
+                            </ul>
+                        </fieldset>
+                    </div>
+
+                    <div class="filter__specials specials">
+                        <fieldset class="specials__field">
+                            <legend class="specials__title">Особенности:</legend>
+                            <ul class="specials__list">
+                                <li class="specials__item">
+                                    <input class="specials__input-checkbox" type="checkbox" id="slider" checked>
+                                    <label for="slider">Слайдер</label>
+                                </li>
+                                <li class="specials__item">
+                                    <input class="specials__input-checkbox" type="checkbox" id="slider">
+                                    <label for="slider">Блок приемуществ</label>
+                                </li>
+                                <li class="specials__item">
+                                    <input class="specials__input-checkbox" type="checkbox" id="slider" checked>
+                                    <label for="slider">Новости</label>
+                                </li>
+                                <li class="specials__item">
+                                    <input class="specials__input-checkbox" type="checkbox" id="slider">
+                                    <label for="slider">Галерея</label>
+                                </li>
+                                <li class="specials__item">
+                                    <input class="specials__input-checkbox" type="checkbox" id="slider">
+                                    <label for="slider">Корзина</label>
+                                </li>
+                            </ul>
+                        </fieldset>
+                    </div>
+                    <button class="button filter-button" type="submit">Показать</button>
                 </form>
             </div>
+
         </section>
 
         <section>

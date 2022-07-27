@@ -754,6 +754,10 @@ img {
 
 /* FILTER */
 
+.main__filter {
+    margin-top: 55px;
+}
+
 .filter__item {
     margin: 0;
     padding: 0;
@@ -833,4 +837,91 @@ img {
     background-color: #f1f1f1;
     font-family: inherit;
     font-size: inherit;
+}
+
+/* GRID-CHOOSE */
+
+.filter__grid-choose {
+    margin-top: 54px;
+}
+.grid-choose {
+
+}
+.grid-choose__field {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+.grid-choose__title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.grid-choose__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 43px;
+    margin-left: 56px;
+}
+.grid-choose__item {
+    margin-bottom: 25px;
+}
+
+.grid-choose__input-radio + label::before {
+    content: "";
+    position: absolute;
+    left: -55px;
+    top: -11px;
+    width: 25px;
+    height: 25px;
+    border: 8px solid #4d4d4d;
+    border-radius: 50%;
+    opacity: 0.4;
+}
+.grid-choose__input-radio:checked + label::after {
+    content: "";
+    position: absolute;
+    left: -39px;
+    top: 5px;
+    width: 9px;
+    height: 9px;
+    background-color: #4d4d4d;
+    border-radius: 50%;
+    opacity: 0.4;
+}
+.grid-choose__label {
+    position: relative;
+    line-height: 19px;
+    color: var(--dark-black);
+}
+
+/* SPECIALS */
+
+.filter__specials {
+
+}
+.specials {
+
+}
+.specials__field {
+
+}
+.specials__title {
+
+}
+.specials__list {
+
+}
+.specials__item {
+
+}
+.specials__input-checkbox {
+
+}
+
+.filter-button {
+
 }
