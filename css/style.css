@@ -1072,6 +1072,7 @@ img {
     margin-bottom: 30px;
     display: flex;
     flex-direction: column;
+    border-radius: 5px;
 }
 
 .examples__item:hover {
@@ -1084,8 +1085,6 @@ img {
     height: 40px;
     background-color: #4d4d4d;
     opacity: 0.1;
-    border-top-right-radius: 3px;
-    border-top-left-radius: 3px;
 }
 
 .examples__image {
@@ -1120,4 +1119,41 @@ img {
 }
 .examples__button {
     width: 200px;
+}
+
+.main__pagination {
+    margin-top: 55px;
+    margin-bottom: 60px;
+    
+}
+.pagination {
+    width: 443px;
+    height: 50px;
+}
+.pagination__list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.pagination__item {
+    width: 50px;
+    height: 50px;
+    background-color: var(--gray-lighter);
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    line-height: 18px;
+    cursor: pointer;
+}
+.pagination__item--current {
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, 0.0001);
+    border: 3px solid #DBDBDB;
+}
+.pagination__item--next {
+    width: 260px;
 }
