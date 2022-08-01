@@ -1131,7 +1131,6 @@ img {
 }
 
 .examples__description {
-    display: none;
     width: 360px;
     height: 231px;
     background-color: var(--gray-lighter);
@@ -1139,10 +1138,13 @@ img {
     left: 0; 
     position: absolute;
     text-align: center;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 .examples__title {
     color: inherit;
+    display: block;
     font-weight: 700;
     font-size: 18px;
     line-height: 30px;
