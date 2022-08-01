@@ -883,6 +883,9 @@ img {
     opacity: 0.4;
     cursor: pointer;
 }
+.grid-choose__input-radio:hover + label::before {
+    opacity: 1;
+}
 .grid-choose__input-radio:checked + label::after {
     content: "";
     position: absolute;
@@ -894,6 +897,7 @@ img {
     border-radius: 50%;
     opacity: 0.4;
 }
+
 .grid-choose__label {
     position: relative;
     line-height: 19px;
