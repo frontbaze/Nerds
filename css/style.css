@@ -162,6 +162,10 @@ img {
     display: flex;
 }
 
+.page-header__item--first {
+    display: none;
+}
+
 .page-header__item--second {
     display: none;
 }
@@ -171,6 +175,18 @@ img {
 }
 
 /* SLIDER */
+
+.slider {
+    
+}
+
+.show {
+    display: flex;
+}
+
+.hide {
+    display: none;
+}
 
 .slider__list {
     list-style: none;
