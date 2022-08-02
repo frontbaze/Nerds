@@ -180,9 +180,7 @@ img {
     
 }
 
-.show {
-    display: flex;
-}
+
 
 .hide {
     display: none;
@@ -662,6 +660,10 @@ img {
     box-sizing: border-box;
 }
 
+.show-modal {
+    display: block;
+}
+
 .modal__title {
     margin: 0;
     font-weight: 700;
@@ -743,6 +745,8 @@ img {
     cursor: pointer;
     opacity: 0.3;
 }
+
+
 
 .modal__close:hover::after {
     opacity: 1;
