@@ -163,7 +163,7 @@ img {
 }
 
 .page-header__item--first {
-    display: none;
+    
 }
 
 .page-header__item--second {
@@ -178,12 +178,6 @@ img {
 
 .slider {
     
-}
-
-
-
-.hide {
-    display: none;
 }
 
 .slider__list {
